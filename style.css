@@ -110,10 +110,11 @@ section {
 }
 .circle-link img{
     background-color: white;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 5px;
     width: 45px;
     height: 45px;
+    margin: 5px;
 }
 
 .project .circle-link img{
@@ -122,7 +123,6 @@ section {
     width: 35px;
     height: 35px;
     margin: 0px;
-    margin-top: 0px;
 }
 
 #contact {
@@ -135,4 +135,25 @@ section {
 
 .text-contact-line {
     font-weight: bold;
+}
+
+.home-button {
+    position: fixed;
+    top: 50px;
+    right:50%;
+    transition: transform .5s;
+}
+
+.home-button.hidden{
+    transform: translateY(-400%);
+}
+
+.home-button.visible{
+    transform: translateY(0);
+}
+
+.home-button img{
+    width:30px;
+    height:30px;
+    padding:10px;
 }
