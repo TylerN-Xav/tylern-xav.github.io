@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test</title>
+        <title>Tyler's Portfolio Site</title>
         <link rel="stylesheet" href="./style.css">
         <script src="./script.js"></script>
     </head>
     <body>
+        <nav>
+            <div id="nav-menu">
+                <a class="nav-button" href="#skills">Skills</a>
+                <a class="nav-button" href="#projects">Projects</a>
+                <a class="nav-button" href="#contact">Contact info</a>
+            </div>
+        </nav>
+        
+        <secton id="intro">
+            <h1>Thanh <u id="pref_name" title="This is my preferred name!">Tyler</u> Nguyen</h1>
+            <p>
+                Welcome to my site! This portfolio focuses on my technical skills, and it's my first personal site so expect some bugs and changes in the future. <br>
+                First and foremost, I am someone with a love for creation. Whether that would be art, writing, or software, I love being able to create things for others to either help or engage them! 
+                I've been practicing programming slowly through self-learning and college, and I've been having a great time learning different programming languages and creating projects for either myself or others!
+                I'm currently a student at the University of Cincinatti (UC) majoring in Computer Science! I had also transferred to UC from The Ohio State University (tOSU) with a year of Computer Science and Engineering.
+            </p>
+        </secton>
 
+        <section id="skills">
+            <h1>Skills</h1>
+
+            <div class="container skill">
+                <h6>HTML</h6>
+                <p>2 years of experience</p>
+            </div>
+
+            <div class="container skill">
+                <h6>CSS</h6>
+                <p>2 years of experience</p>
+            </div>
+
+            <div class="container skill">
+                <h6>JavaScript</h6>
+                <p>3 months of experience</p>
+            </div>
+
+            <div class="container skill">
+                <h6>Python</h6>
+                <p>2 years of experience</p>
+            </div>
+
+            <div class="container skill">
+                <h6>C++</h6>
+                <p>1 year of experience</p>
+            </div>
+
+            <div class="container skill">
+                <h6>Java</h6>
+                <p>2 years of experience</p>
+            </div>
+
+            <div class="container skill">
+                <h6>SQL</h6>
+                <p>2 months of experience</p>
+            </div>
+
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            
+            <div class="container project">
+                <h6>Music Sharing Clipboard</h6>
+
+                <p>
+                    A console program that I made for a friend. It utilizes a music sharing website, Last.fm, to pull the music you're currently listening to onto your clipboard to easily paste and share. 
+                    This was programmed in both javascript as well as python when I had to pivot when learning GUI for desktop applications.
+                </p>
+                
+            </div>
+
+            <div class="container project">
+                <h6>Portfolio Website</h6>
+
+                <p>
+                    You're on it right now! I wanted to try developing a website without using any website builder and coding it myself. This website just uses basic HTML, CSS, and a small amount of JavaScript.
+                </p>
+                <a class="circle-link" href="https://github.com/TylerN-Xav/tylern-xav.github.io">
+                    <img src="imgs/github-mark.png" alt="Github Profile Link">
+                </a>
+            </div>
+
+            <div class="container project">
+                <h6>Prototype Mover Robot</h6>
+
+                <p>
+                    A robot that I worked on in school as the lead programmer of my team. The programming was primarily in LabView, and we were able to get great scores, enough to make it to the optional final track!
+                </p>
+                
+            </div>
+
+
+        </section>
+
+        <section id="contact">
+            <div id="text-contact">
+                <p class="text-contact-line">Mail : thanhtylernguyen203@gmail.com</p>
+                <p class="text-contact-line">Mobile : +1 (814) 384 - 3298</p>
+            </div>
+
+            <div id="quick-links">
+                <a class="circle-link" href="https://github.com/TylerN-Xav">
+                    <img src="imgs/github-mark.png" alt="Github Profile Link">
+                </a>
+            </div>
+        </section>
     </body>
 </html>

@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #17171b;
+    color:aliceblue;
+}
+
+#nav-menu{
+    background-color: #0c0b0e;
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+    padding: 10px;
+    gap: 30px;
+}
+
+.nav-button {
+    font-size: 30px;
+    color:#86a2ff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-button:hover {
+    color:#686bff;
+    font-weight: 700;
+}
+
+#intro {
+    display: flex;
+    align-content: center;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 10%;
+    height: 45em;
+}
+
+h1 {
+    flex: 1 100%;
+    font-size: 40px;
+}
+
+#intro h1 {
+    color:rgb(255, 236, 200);
+    font-size: 50px;
+    margin: 0%;
+}
+
+#intro p {
+    font-size: 20px;
+}
+
+#pref_name {
+    font-weight: 800;
+}
+
+section {
+    padding-left: 80px;
+    margin-left:-10px;
+    padding-right: 80px;
+    margin-right: -10px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+#skills {
+    background-color: #202225;
+}
+
+.container {
+    border: 5px solid #0b0b0c;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 5px;
+}
+
+.skill {
+    background-color: #2f2f49;
+    width: 170px;
+    height: 100px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill h6 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.project h6 {
+    font-size: 24px;
+    flex: 1 100%;
+    margin: 0%;
+}
+.project {
+    background-color: #272831;
+    flex: 0 0 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.project p{
+    flex: 1 100%;
+    margin-bottom: 10px;
+}
+.circle-link img{
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.project .circle-link img{
+    border-radius: 19px;
+    padding: 3px;
+    width: 35px;
+    height: 35px;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+#contact {
+    padding-top: 40px;
+    background-color: #0c0b0e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-contact-line {
+    font-weight: bold;
+}
