@@ -109,7 +109,7 @@ section {
 }
 .project {
     background-color: #272831;
-    flex: 0 0 30%;
+    flex: 0 0 40%;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
